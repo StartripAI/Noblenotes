@@ -1,0 +1,6 @@
+{
+  "trial_profile": "conservative",
+  "region_policy": "NonCN",
+  "kill_switch_cloud_ai": false,
+  "budget_gate_mode": "tighten"
+}
