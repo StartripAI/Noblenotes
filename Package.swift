@@ -20,7 +20,7 @@ let package = Package(
         .target(name: "StorageKit", dependencies: ["CoreKit", "TelemetryKit"]),
         .target(name: "TelemetryKit", dependencies: ["CoreKit"]),
         .target(name: "QuotaKit", dependencies: ["CoreKit", "TelemetryKit"]),
-        .target(name: "AICore", dependencies: ["CoreKit", "QuotaKit", "TelemetryKit"]),
+        .target(name: "AICore", dependencies: ["CoreKit", "QuotaKit", "TelemetryKit", "StorageKit"]),
         .target(name: "SyncKit", dependencies: ["CoreKit", "TelemetryKit", "StorageKit"]),
         .testTarget(name: "CoreKitTests", dependencies: ["CoreKit"]),
         .testTarget(name: "QuotaKitTests", dependencies: ["QuotaKit"]),
