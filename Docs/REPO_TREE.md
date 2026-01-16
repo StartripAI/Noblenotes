@@ -1,0 +1,61 @@
+# Repo Tree
+
+```text
+Noblenotes/
+  Docs/
+    REPO_TREE.md
+    NextSteps.md
+  Config/
+    default.json
+  Sources/
+    AICore/
+      AntiAbuse/
+        AntiAbuse.swift
+      FraudSimulator.swift
+      RAGKit.swift
+      VoiceQnAController.swift
+      ProviderRouter.swift
+      README.md
+    CoreKit/
+      CoreTypes.swift
+      RemoteConfig.swift
+      README.md
+    QuotaKit/
+      QuotaModels.swift
+      README.md
+    StorageKit/
+      OCRPipeline.swift
+      HandwritingIndex.swift
+      KeyValueStore.swift
+      README.md
+    SyncKit/
+      Outbox.swift
+      ServerStub.swift
+      SyncService.swift
+      SyncEngine.swift
+      README.md
+    TelemetryKit/
+      Telemetry.swift
+      README.md
+  Tests/
+    CoreKitTests/
+      RemoteConfigTests.swift
+    AICoreTests/
+      AntiAbuseTests.swift
+      FraudSimulatorTests.swift
+      ProviderRouterTests.swift
+      RAGKitTests.swift
+      VoiceQnAControllerTests.swift
+    QuotaKitTests/
+      QuotaManagerTests.swift
+    StorageKitTests/
+      HandwritingIndexTests.swift
+      OCRPipelineTests.swift
+    SyncKitTests/
+      SyncEngineTests.swift
+      SyncServiceTests.swift
+    TelemetryKitTests/
+      TelemetryAggregatorTests.swift
+  Package.swift
+  noble-notes-PRD-v7.md
+```
