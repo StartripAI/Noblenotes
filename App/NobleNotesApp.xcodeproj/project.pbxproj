@@ -161,7 +161,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+name = Debug;
 		};
 		A00000000000000000000062 /* Release */ = {
 			isa = XCBuildConfiguration;
